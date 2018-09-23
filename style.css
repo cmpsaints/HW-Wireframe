@@ -1,0 +1,116 @@
+/** HW 01 Html & CSS - Easier (Week 01, Day 02) **/
+
+/** In this assignment, I am going by the picture in terms of sizing, not necessarily
+    by the written instructions. **/
+
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/**
+.clearfix::after {
+    content: "";
+    display: block;
+    overflow: hidden;
+    clear: both;
+}
+**/
+
+/**
+#container {
+    overflow: hidden;
+    width: 100%;
+}
+**/
+
+.row {
+    display: flex;  /* equal height of children */
+}
+
+
+
+body {
+    width: 960px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 10px;
+    color: #777;
+    background: #777;
+}
+
+
+
+header {
+    padding: 35px;
+    margin-bottom: 10px;
+    color: #777;
+    background: #ebebeb;
+}
+
+nav {
+    padding: 35px;
+    margin-bottom: 20px;
+    color: #777;
+    background: #ebebeb;
+}
+
+div {
+
+}
+
+
+section {
+    float: left;
+    width: 55%;
+    padding: 10px;
+    padding-top: 35px;
+    margin-bottom: 20px;
+    color: #777;
+    background: #ebebeb;
+}
+
+article {
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 25px;
+    margin-top: 25px;
+    color: #ebebeb;
+    background: #777;
+}
+
+h1 {
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #777;
+    background: #ebebeb;
+}
+
+p {
+    padding: 15px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: #777;
+    background: #ebebeb;
+}
+
+aside {
+    float: right;
+    width: 43%;
+    padding-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 2%;
+    color: #777;
+    background: #ebebeb;
+}
+
+footer {
+    clear: both;
+    overflow: auto;
+    padding: 35px;
+    color: #777;
+    background: #ebebeb;
+}
